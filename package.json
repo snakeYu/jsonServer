@@ -1,0 +1,17 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server  && nodemon server.js",
+    "enter": "cd server && json-server --watch db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.12.2",
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^1.17.4"
+  }
+}
